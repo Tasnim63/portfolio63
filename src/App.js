@@ -1,11 +1,13 @@
 import "./App.scss";
-import './styles/_Layout.scss'
+import NavBar from "./components/NavBar";
+
 function App() {
   return (
     <>
       <div className="App">
-       
-        <div className="sidebar"></div>
+        <div className="sidebar">
+          <NavBar />
+        </div>
         <div className="main-content"></div>
       </div>
     </>

@@ -1,3 +1,5 @@
+@import './styles/_nabvar.scss';
+@import "./styles/_Layout.scss";
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 
 *{
@@ -6,10 +8,7 @@
     box-sizing: border-box;
 }
 body{
-    color:#251B37;
-    font-family: 'Rancho', cursive;
-    font-size: .2rem;
-}
-h1{
-    color: red;
+    color:#FFECEF;
+  
+    font-size: 1.2rem;
 }
