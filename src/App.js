@@ -1,11 +1,13 @@
-
-import './App.scss'
+import "./App.scss";
+import './styles/_Layout.scss'
 function App() {
   return (
     <>
-    <h1>hello world</h1>
-    <div className="sidebar"></div>
-    <div className="main-content"></div>
+      <div className="App">
+       
+        <div className="sidebar"></div>
+        <div className="main-content"></div>
+      </div>
     </>
   );
 }

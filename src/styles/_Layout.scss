@@ -1,0 +1,16 @@
+.App{
+    .sidebar{
+        width: 16%;
+        height: 100vh;
+        background-color: #372948;
+        position: fixed;
+    }
+    .main-content{
+        width: 84%;
+        margin-left: 16%;
+        background-color: #251B37;
+        min-height: 100vh;
+    }
+}
+
+// FFECEF
