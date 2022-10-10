@@ -13,8 +13,10 @@
         background-color: #251B37;
         min-height: 100vh;
          background-image: url(../images/4.png);
+       background-position: bottom;
+         background-repeat: no-repeat;
          display: grid;
-
+        position: relative;
     }
 }
 
