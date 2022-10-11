@@ -1,0 +1,51 @@
+.ImageSection{
+    display: flex;
+    margin-top:4rem ;
+
+    .img{
+      width: 100%;
+       height: 50vh;
+        img{
+          width: 100%;
+          object-fit: cover;
+          height:100%;
+        }
+    }
+    .about_info{
+     margin-left: 2rem;  
+     width: 100%;
+     h4{
+        font-size:2rem ;
+     } 
+     .about_button{
+        .btn{
+            padding: 1rem 2rem;
+            background-color: #944E6C;
+            border: 1px solid #a36d84;
+            outline: none;
+         
+            color: #FFECEF;
+            text-transform: uppercase;
+            cursor: pointer;
+            letter-spacing: 2px;
+            margin-top: 1rem;
+            position: relative;
+         
+            &::after{
+                position: absolute;
+                content: '';
+                width: 0;
+                height: .3rem;
+                left: 0;
+                bottom: 0;
+                transition: all .5s ease-in-out; 
+                background-color:  #ffcaca;
+              
+            }
+            &:hover::after{
+                width: 100%;
+            }
+        }
+     }
+    }
+}

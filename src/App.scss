@@ -1,6 +1,8 @@
 @import './styles/nabvar.scss';
 @import "./styles/Layout.scss";
 @import './styles/typography';
+@import './styles/title';
+@import './styles/about';
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 
 *{
@@ -12,4 +14,7 @@ body{
     color:#FFECEF;
   
     font-size: 1.2rem;
+}
+span{
+    color:  #ffcaca;
 }

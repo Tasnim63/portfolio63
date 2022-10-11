@@ -1,0 +1,35 @@
+.Tittle{
+    text-transform: uppercase;
+    font-size:2rem ;
+    position: relative;
+    padding-bottom: 1rem;
+    letter-spacing: 3px;
+    &::before{
+       content: '';
+       bottom: 0;
+       position: absolute;
+       left: 0; 
+       background-color: #c9a2b2;
+       width: 6rem;
+       height: .3rem;
+       border-radius: 50px;
+     
+    }
+    &::after{
+        content: '';
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        background-color: #944E6C;
+        width: 3rem;
+        height: .3rem;
+        border-radius: 50px;
+    }
+    span{
+        position: absolute;
+        top: 15%;
+        left: 0;
+        font-size: 5rem;
+        opacity: .08;
+    }
+}
