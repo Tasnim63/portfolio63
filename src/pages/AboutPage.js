@@ -24,7 +24,10 @@ export default function AboutPage() {
           <Skill skill={"Express js"} progress={"30%"} width={"30%"} />
         </div>
         <div className="services-container">
-          <ServicesSection image={design} />
+          <ServicesSection image={design} title={'web Design'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
+          <ServicesSection image={design} title={'web Design'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
+          <ServicesSection image={design} title={'web Design'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
+        
         </div>
       </div>
     </>
