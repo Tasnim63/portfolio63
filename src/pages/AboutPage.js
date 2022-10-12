@@ -1,9 +1,10 @@
 import React from "react";
 import ImageSection from "../components/ImageSection";
+import ServicesSection from "../components/ServicesSection";
 import Skill from "../components/Skill";
 
 import Tittle from "../components/Tittle";
-
+import design from '../images/design.svg'
 export default function AboutPage() {
   return (
     <>
@@ -21,6 +22,9 @@ export default function AboutPage() {
           <Skill skill={"Node js"} progress={"30%"} width={"30%"} />
           <Skill skill={"MongoDb"} progress={"30%"} width={"30%"} />
           <Skill skill={"Express js"} progress={"30%"} width={"30%"} />
+        </div>
+        <div className="services-container">
+          <ServicesSection image={design} />
         </div>
       </div>
     </>
