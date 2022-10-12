@@ -49,3 +49,10 @@
      }
     }
 }
+.skillsContainer{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+  column-gap:4rem ;
+  row-gap: 3rem;
+  margin:4rem 0 ;
+}
