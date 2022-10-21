@@ -12,8 +12,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(228, 112, 132);
+    border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+    background-color: #FFECEF;
+}
 body{
-    color:#FFECEF;
+    color:#fff8f9;
   
     font-size: 1.2rem;
 }
