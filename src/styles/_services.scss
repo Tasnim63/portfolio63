@@ -1,6 +1,6 @@
 .ServicesSection{
     .service{
-        width: 85%;
+        width: 95%;
         height: 100%;
         border-left: 1px solid #e03f3f33 ;
         border-right: 1px solid #e03f3f33;
@@ -37,5 +37,5 @@
 .services-container{
     display: flex;
    justify-content: space-between;
-
+    margin-top: 4rem;
 }

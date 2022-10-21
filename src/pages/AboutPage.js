@@ -5,6 +5,8 @@ import Skill from "../components/Skill";
 
 import Tittle from "../components/Tittle";
 import design from '../images/design.svg'
+import intelisnce from '../images/intelligence.svg';
+import gamedev from '../images/game-dev.svg';
 export default function AboutPage() {
   return (
     <>
@@ -23,10 +25,11 @@ export default function AboutPage() {
           <Skill skill={"MongoDb"} progress={"30%"} width={"30%"} />
           <Skill skill={"Express js"} progress={"30%"} width={"30%"} />
         </div>
+        <Tittle title={"Services"} span={"Services"} />
         <div className="services-container">
           <ServicesSection image={design} title={'web Design'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
-          <ServicesSection image={design} title={'web Development'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
-          <ServicesSection image={design} title={'Problem solving'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
+          <ServicesSection image={intelisnce} title={'web Development'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
+          <ServicesSection image={gamedev} title={'Problem solving'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
         
         </div>
       </div>
