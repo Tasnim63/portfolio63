@@ -25,8 +25,8 @@ export default function AboutPage() {
         </div>
         <div className="services-container">
           <ServicesSection image={design} title={'web Design'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
-          <ServicesSection image={design} title={'web Design'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
-          <ServicesSection image={design} title={'web Design'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
+          <ServicesSection image={design} title={'web Development'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
+          <ServicesSection image={design} title={'Problem solving'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
         
         </div>
       </div>
