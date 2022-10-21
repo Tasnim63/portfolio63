@@ -1,32 +1,32 @@
-@import './styles/nabvar';
+@import "./styles/nabvar";
 @import "./styles/Layout";
-@import './styles/typography';
-@import './styles/title';
-@import './styles/about';
-@import './styles/skill';
-@import './styles/services';
-@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import "./styles/typography";
+@import "./styles/title";
+@import "./styles/about";
+@import "./styles/skill";
+@import "./styles/services";
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body::-webkit-scrollbar{
-    width: 8px;
+body::-webkit-scrollbar {
+  width: 8px;
 }
-body::-webkit-scrollbar-thumb{
-    background-color: rgb(228, 112, 132);
-    border-radius: 50px;
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(148, 62, 76);
+  border-radius: 50px;
 }
-body::-webkit-scrollbar-track{
-    background-color: #fdf6f7;
+body::-webkit-scrollbar-track {
+  background-color: #fdf6f7;
 }
-body{
-    color:#fff8f9;
-    
-    font-size: 1.2rem;
+body {
+  color: #fff8f9;
+
+  font-size: 1.2rem;
 }
-span{
-    color:  #ffcaca;
+span {
+  color: #ffcaca;
 }

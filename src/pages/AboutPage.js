@@ -4,7 +4,7 @@ import ServicesSection from "../components/ServicesSection";
 import Skill from "../components/Skill";
 
 import Tittle from "../components/Tittle";
-import design from '../images/design.svg'
+import design from '../images/graphic-design.png'
 import intelisnce from '../images/intelligence.svg';
 import gamedev from '../images/game-dev.svg';
 export default function AboutPage() {
@@ -27,7 +27,7 @@ export default function AboutPage() {
         </div>
         <Tittle title={"Services"} span={"Services"} />
         <div className="services-container">
-          <ServicesSection image={design} title={'web Design'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
+          <ServicesSection  image={design} title={'web Design'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
           <ServicesSection image={intelisnce} title={'web Development'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
           <ServicesSection image={gamedev} title={'Problem solving'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
         

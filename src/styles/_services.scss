@@ -11,9 +11,12 @@
         &:hover{
             border-top: 8px solid #a05473 ;
         }
+
         .service-content{
             padding: 1rem;
-          
+          .service-images{
+            width: 50px;
+          }
             .s-title{
                 font-size: 1.6rem;
                 color:  #c9a2b2;
