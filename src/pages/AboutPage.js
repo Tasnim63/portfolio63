@@ -5,8 +5,8 @@ import Skill from "../components/Skill";
 
 import Tittle from "../components/Tittle";
 import design from '../images/graphic-design.png'
-import intelisnce from '../images/intelligence.svg';
-import gamedev from '../images/game-dev.svg';
+import intelisnce from '../images/app-development.png';
+import gamedev from '../images/coding.png';
 export default function AboutPage() {
   return (
     <>
