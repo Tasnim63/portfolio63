@@ -29,21 +29,21 @@ export default function AboutPage() {
         <div className="services-container">
           <ServicesSection
             image={design}
-            title={"web Design"}
+            title={"web_Design"}
             text={
               "I can design any kind of websites. I can build super responsive websites.It will be pixel perfect. I uesd css,scss,bootstrap,tailwind for desiging websites."
             }
           />
           <ServicesSection
             image={intelisnce}
-            title={"web Development"}
+            title={"web_Development"}
             text={
               "I can develop any kind of website. I can add functionality for any websites.It always try to make it professional. I know javacript functionality for developing websites."
             }
           />
           <ServicesSection
             image={gamedev}
-            title={"Problem solving"}
+            title={"Problem_solving"}
             text={
               "I always practise problem sloving. This practise will grow my skills. It will make me professional. I know javacript functionality developing websites."
             }
