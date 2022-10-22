@@ -8,11 +8,11 @@ export default function Blogs() {
         allBlogs.map((blog)=>{
           return <div className="blog" key={blog.id}>
               <div className="blog-content">
-                <img src={blog.image} alt="" />
+               <div className="blog-image">
+               <img src={blog.image} alt="" />
+               </div>
                 <a href={blog.link} className="blog-link">{blog.title}</a>
-                <div className="date-con">
-                        <p>{}</p>
-                </div>
+               
               </div>
           </div>
         })

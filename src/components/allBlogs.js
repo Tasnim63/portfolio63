@@ -3,6 +3,7 @@ import blog2 from '../images/blog2.jpg';
 import blog3 from '../images/blog3.jpg';
 import blog4 from '../images/blog4.jpg';
 import blog5 from '../images/blog5.jpg';
+import blog6 from '../images/blog6.jpg';
 
 const blogs = [
     {
@@ -52,31 +53,14 @@ const blogs = [
     },
     {
         id: 6,
-        image: blog5,
+        image: blog6,
         title: 'UI/UX Design Starter with Figma',
         link: 'https://www.facebook.com/',
         date : '09',
         month: 'Sep',
         year: '2019'
-    },
-    {
-        id: 7,
-        image: blog3,
-        title: 'Test Blogs data1',
-        link: 'https://www.facebook.com/',
-        date : '09',
-        month: 'Sep',
-        year: '2019'
-    },
-    {
-        id: 8,
-        image: blog1,
-        title: 'Test Blogs data2',
-        link: 'https://www.facebook.com/',
-        date : '09',
-        month: 'Sep',
-        year: '2019'
     }
+  
 ];
 
 export default blogs;
