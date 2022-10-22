@@ -8,9 +8,7 @@ export default function Blogs() {
         allBlogs.map((blog)=>{
           return <div className="blog" key={blog.id}>
               <div className="blog-content">
-               <div className="blog-image">
-               <img src={blog.image} alt="" />
-               </div>
+            <img src={blog.image} alt="" />
                 <a href={blog.link} className="blog-link">{blog.title}</a>
                
               </div>
