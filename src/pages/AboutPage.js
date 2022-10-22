@@ -4,9 +4,9 @@ import ServicesSection from "../components/ServicesSection";
 import Skill from "../components/Skill";
 
 import Tittle from "../components/Tittle";
-import design from '../images/graphic-design.png'
-import intelisnce from '../images/app-development.png';
-import gamedev from '../images/coding.png';
+import design from "../images/graphic-design.png";
+import intelisnce from "../images/app-development.png";
+import gamedev from "../images/coding.png";
 export default function AboutPage() {
   return (
     <>
@@ -27,10 +27,27 @@ export default function AboutPage() {
         </div>
         <Tittle title={"Services"} span={"Services"} />
         <div className="services-container">
-          <ServicesSection  image={design} title={'web Design'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
-          <ServicesSection image={intelisnce} title={'web Development'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
-          <ServicesSection image={gamedev} title={'Problem solving'} text={'thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue thishseh hsh sjdh dee dhfh dhdd ueeuue dduduue  uieueue'} />
-        
+          <ServicesSection
+            image={design}
+            title={"web Design"}
+            text={
+              "I can design any kind of websites. I can build super responsive websites.It will be pixel perfect. I uesd css,scss,bootstrap,tailwind for desiging websites."
+            }
+          />
+          <ServicesSection
+            image={intelisnce}
+            title={"web Development"}
+            text={
+              "I can develop any kind of website. I can add functionality for any websites.It always try to make it professional. I know javacript functionality for developing websites."
+            }
+          />
+          <ServicesSection
+            image={gamedev}
+            title={"Problem solving"}
+            text={
+              "I always practise problem sloving. This practise will grow my skills. It will make me professional. I know javacript functionality developing websites."
+            }
+          />
         </div>
       </div>
     </>
