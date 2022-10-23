@@ -5,18 +5,32 @@
   .blog {
     background-color: #9f77c033;
     width: 100%;
+    padding: 1rem;
+overflow: hidden;
     .blog-content {
-      padding: 1rem;
-
       overflow: hidden;
+      padding-bottom: 2rem;
       img {
         width: 100%;
-        transition: all 0.4s ease-in-out;
+        transition: all 0.2s ease-in-out;
         height: 250px;
         object-fit: cover;
         &:hover {
-          transform: scale(1.2);
+          transform: scale(1.1);
         }
+        padding-bottom: 2rem;
+      }
+      .blog-link{
+        color: inherit;
+        font-family: inherit;
+        text-decoration: none;
+        text-decoration: none;
+        font-size: 2rem;
+       padding-bottom: 2rem;
+       transition: all 0.4s ease-in-out;
+       &:hover{
+      color: rgb(248, 205, 212) ;
+       }
       }
     }
   }

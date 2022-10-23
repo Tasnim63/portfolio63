@@ -9,7 +9,7 @@ const blogs = [
     {
         id: 1,
         image: blog1,
-        title: 'UI/UX Design Starter with Figma',
+        title: 'Web  Design Started with Figma',
         link: 'https://www.facebook.com/',
         date : '21',
         month: 'Mar',
@@ -18,7 +18,7 @@ const blogs = [
     {
         id: 2,
         image: blog2,
-        title: 'UI/UX Design Starter with Figma',
+        title: 'Web  Design Started with Figma',
         link: 'https://www.facebook.com/',
         date : '09',
         month: 'Dec',
@@ -27,7 +27,7 @@ const blogs = [
     {
         id: 3,
         image: blog3,
-        title: 'UI/UX Design Starter with Figma',
+        title: 'Web  Design Started with Figma',
         link: 'https://www.facebook.com/',
         date : '15',
         month: 'Jun',
@@ -36,7 +36,7 @@ const blogs = [
     {
         id: 4,
         image: blog4,
-        title: 'UI/UX Design Starter with Figma',
+        title: 'Web  Design Started with Figma',
         link: 'https://www.facebook.com/',
         date : '04',
         month: 'Aug',
@@ -45,7 +45,7 @@ const blogs = [
     {
         id: 5,
         image: blog5,
-        title: 'UI/UX Design Starter with Figma',
+        title: 'Web  Design Started with Figma',
         link: 'https://www.facebook.com/',
         date : '09',
         month: 'Sep',
@@ -54,7 +54,7 @@ const blogs = [
     {
         id: 6,
         image: blog6,
-        title: 'UI/UX Design Starter with Figma',
+        title: 'Web  Design Started with Figma',
         link: 'https://www.facebook.com/',
         date : '09',
         month: 'Sep',
