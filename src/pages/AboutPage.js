@@ -45,7 +45,7 @@ export default function AboutPage() {
             image={gamedev}
             title={"Problem_solving"}
             text={
-              "I always practise problem sloving. This practise will grow my skills. It will make me professional. I know javacript functionality developing websites."
+              "I always practise problem sloving. This practise will grow my skills. It will make me professional. I know javacript functionality for developing websites."
             }
           />
         </div>
