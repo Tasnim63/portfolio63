@@ -33,3 +33,8 @@ body {
 span {
   color: #ffcaca;
 }
+@media screen and (max-width: 441px) {
+  html {
+   font-size: 70%;
+  }
+}
