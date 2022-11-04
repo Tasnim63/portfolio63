@@ -56,3 +56,31 @@
   row-gap: 3rem;
   margin:4rem 0 ;
 }
+.btn-portfolio{
+    padding: .6rem 2rem;
+    background-color:  #9f77c033;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color:#fff8f9;
+    font-size: inherit;
+    font-family: inherit;
+    margin-bottom: 1rem;
+    transition: all .3s ease-in-out;
+    &:not(:last-child){
+        margin-right: 1rem;
+    }
+    &:hover{
+        background-color: #944E6C;
+    }
+    &:focus {
+        background-color: #944E6C;
+    }
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 4rem 10rem;
+   flex-wrap: wrap;
+}

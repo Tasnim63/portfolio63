@@ -5,14 +5,27 @@
         background-color: #372948;
         position: fixed;
         border-right: 1px solid #2a1f3d;
-      
+        z-index: 11;
+        transition: all .4s ease-in-out;
+        transform-origin: left;
+        @media screen and (max-width:1000px) {
+            transition: all .4s ease-in-out;
+            transform: translateX(-100%);
+        }
+    }
+    .nav-toggle{
+        @media screen and (max-width:1000px) {
+            transition: all .4s ease-in-out;
+            transform: translateX(0);
+            width: 20%;
+        }
     }
     .main-content{
         width: 84%;
         margin-left: 16%;
         background-color: #251B37;
         min-height: 100vh;
-         background-image: url(../images/4.png);
+        //  background-image: url(../images/4.png);
        background-position: bottom;
          background-repeat: no-repeat;
          display: grid;
@@ -20,6 +33,40 @@
         .content{
             margin: 5rem 12rem;
         }
+        @media screen and (max-width:1000px) {
+        margin-left: 0;
+        width: 100%;
+        }
+    }
+}
+.nav-btn{
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+    top: 10%;
+
+    width: 4rem;
+  
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .lines-1,.lines-2, .lines-3{
+        height: .4rem;
+        width: 100%;
+        display: none;
+        pointer-events: none;
+        background-color: rgb(158, 46, 111);
+        border-radius: 20px;
+        &:not(:last-child){
+            margin-bottom: .5rem;
+        }
+    }
+    @media screen and (max-width:1000px) {
+        .lines-1,.lines-2, .lines-3{
+            display: block;
+        } 
     }
 }
 

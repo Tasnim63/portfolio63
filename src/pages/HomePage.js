@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className="HomePage">
         <header className="hero">
           <h1 className="hero_text">
-            Hi , I am
+            Hi  , I am
             <span> Tamanna</span>
           </h1>
           <h6>Junior React js Developer</h6>

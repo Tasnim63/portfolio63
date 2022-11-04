@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import NavBar from "./components/NavBar";
@@ -8,11 +9,21 @@ import HomePage from "./pages/HomePage";
 import Portfolio from "./pages/Portfolio";
 
 function App() {
+  const [navToggle,setNavToggle] =useState(false);
+  const navClick =()=>{
+    setNavToggle(!navToggle)
+
+  }
   return (
     <>
       <div className="App">
-        <div className="sidebar">
+        <div className={`sidebar ${navToggle ? 'nav-toggle' : '' }`}>
           <NavBar />
+        </div>
+        <div className="nav-btn" onClick={navClick}>
+          <div className="lines-1"></div>
+          <div className="lines-2"></div>
+          <div className="lines-3"></div>
         </div>
         <div className="main-content">
           <div className="content">
