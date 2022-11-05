@@ -24,7 +24,7 @@ const potfolios =[
     {
         id:3,
         catgory:"React",
-        details:" I had made this website with html, font awsome css and Bootstrap .I will will pleasure If you visite below live link",
+        details:" I had made this website with html, font awsome css and Bootstrap .It will will pleasure If you visite below live link",
         name:"MealDb",
       
         live:"https://candid-meringue-550f66.netlify.app",
@@ -35,7 +35,7 @@ const potfolios =[
     {
         id:4,
         catgory:"Boostrap",
-        details:" I had made this website with html, font awsome css and Bootstrap .I will will pleasure If you visite below live link",
+        details:" I had made this website with html, font awsome css and Bootstrap .It will will pleasure If you visite below live link",
         name:"RESTURENTS",
         live:"https://resturent-with-boostrap.netlify.app/",
         code:"https://github.com/Tasnim63/-Restaurant-Bootstrap",
@@ -55,7 +55,7 @@ const potfolios =[
     {
         id:6,
         catgory:"HTML_CSS",
-        details:" I had made this website with html,css and font awsome .I will will pleasure If you visite below live link",
+        details:" I had made this website with html,css and font awsome .It will will pleasure If you visite below live link",
         name:"Coffe Shop",
         live:"https://ubiquitous-smakager-c30574.netlify.app/",
         code:"https://github.com/Tasnim63/projects-2",
@@ -66,7 +66,7 @@ const potfolios =[
     {
         id:6,
         catgory:"React",
-        details:" I had made this website with React,redux and react fonts .I will will pleasure If you visite below live link",
+        details:" I had made this website with React,redux and react fonts .It will will pleasure If you visite below live link",
         name:"ulina-shop",
         live:"https://ulina-shop.netlify.app/",
         code:"https://github.com/Tasnim63/ulina-shop",

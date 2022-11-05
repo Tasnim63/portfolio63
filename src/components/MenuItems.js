@@ -10,8 +10,8 @@ export default function MenuItems({menuItem}) {
                     <img src={item.image} alt="" />
                    <ul className="hover-item">
                     <li>
-                     <a href={item.code}>source </a>
-                     <a href={item.live}>preview</a>
+                     <a href={item.code}>G</a>
+                     <a href={item.live}>Y</a>
                     </li>
                    </ul>
                    </div>
