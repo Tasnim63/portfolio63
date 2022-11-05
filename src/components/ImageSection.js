@@ -18,7 +18,7 @@ export default function ImageSection() {
           Firebase Authentication ,node js ,mongodb and express js.
         </p>
         <div className="about_button">
-         <button className=" btn">Download Cv</button>
+         <a href="https://docs.google.com/document/d/1B-WFLq6Q5BZ5adYbPeUfffVpclvfruRQWvBAv8Nw4SE/edit?usp=sharing" className=" btn"  download>Download Cv</a>
         </div>
       </div>
     </div>
