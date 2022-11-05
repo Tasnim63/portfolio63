@@ -8,10 +8,14 @@
         border-top: 8px solid #e03f3f33 ;
         background-color: #805d9c33;
         transition: all .4s ease-in-out;
+      
         &:hover{
             border-top: 8px solid #a05473 ;
         }
-
+        @media screen and (max-width:1400px) {
+          width: 100%;
+margin-bottom: 1rem;
+        }
         .service-content{
             padding: 1rem;
           .service-images{
@@ -41,4 +45,8 @@
     display: flex;
    justify-content: space-between;
     margin-top: 4rem;
+    @media screen and (max-width:1400px) {
+        flex-direction: column;
+      margin-bottom: 2rem;
+    }
 }

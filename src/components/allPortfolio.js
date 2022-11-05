@@ -62,15 +62,16 @@ const potfolios =[
         // image: blog4,
         image:"https://bslthemes.com/html/kaffen/images/menu4.jpg"
     },
+  
     {
-        id:7,
-        catgory:"HTML_CSS",
-        details:" I had made this website with html,css and font awsome .I will will pleasure If you visite below live link",
-        name:"Education Master",
-        live:"https://hilarious-caramel-99167f.netlify.app/",
-        code:"https://github.com/Tasnim63/education-master",
+        id:6,
+        catgory:"React",
+        details:" I had made this website with React,redux and react fonts .I will will pleasure If you visite below live link",
+        name:"ulina-shop",
+        live:"https://ulina-shop.netlify.app/",
+        code:"https://github.com/Tasnim63/ulina-shop",
         // image: blog4,
-        image:"https://demo.web3canvas.com/themeforest/unisco/images/slider-3.jpg"
+        image:"https://img.freepik.com/free-vector/cartoon-style-cafe-front-shop-view_134830-697.jpg?w=740&t=st=1667613316~exp=1667613916~hmac=d27218ee61afe37f7e5918b58cce5876640007db8ad5aed0be37f6ec7ee77e11"
     },
     
    
