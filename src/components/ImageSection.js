@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImg from "../images/focus-software-developer-hands-typing-source-code-keyboard-while-looking-computer-screens-with-programming-interface-programer-sitting-desk-with-clipboard-writing-algorithm.jpg";
+import cv from '../images/Tamanna_Akter.pdf'
 export default function ImageSection() {
   return (
     <div className="ImageSection">
@@ -18,7 +19,7 @@ export default function ImageSection() {
           Firebase Authentication ,node js ,mongodb and express js.
         </p>
         <div className="about_button">
-         <a href="https://docs.google.com/document/d/1B-WFLq6Q5BZ5adYbPeUfffVpclvfruRQWvBAv8Nw4SE/edit?usp=sharing" className=" btn"  download>Download Cv</a>
+         <a href={cv} className=" btn"  download >Download Cv</a>
         </div>
       </div>
     </div>
